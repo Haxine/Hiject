@@ -616,7 +616,7 @@ return array(
     'A task cannot be linked to itself' => '任务不能关联到本身',
     'The exact same link already exists' => '相同的关联已存在',
     'Recurrent task is scheduled to be generated' => '循环性任务将按计划生成',
-    'Score' => '积分',
+    'Score' => '复杂度总分值',
     'The identifier must be unique' => '标识符必须唯一',
     'This linked task id doesn\'t exists' => '关联任务不存在',
     'This value must be alphanumeric' => '此值必须是字母或者数字',
