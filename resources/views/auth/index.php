@@ -6,6 +6,8 @@
         <p class="alert alert-error"><?= $this->text->e($errors['login']) ?></p>
     <?php endif ?>
 
+    <h2><?= $this->app->config('application_name')?:'Hiject' ?></h2>
+
     <?php if (! HIDE_LOGIN_FORM): ?>
     <form method="post" action="<?= $this->url->href('AuthController', 'check') ?>">
 
@@ -24,7 +26,7 @@
         <?php endif ?>
 
         <?php if (REMEMBER_ME_AUTH): ?>
-            <?= $this->form->checkbox('remember_me', t('Remember Me'), 1, true) ?><br>
+            <?= $this->form->checkbox('remember_me', t('Remember Me'), 1, true) ?>
         <?php endif ?>
 
         <div class="form-actions">
