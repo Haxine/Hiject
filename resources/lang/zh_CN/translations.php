@@ -40,6 +40,7 @@ return array(
     'Password' => '密码',
     'Administrator' => '超级管理员',
     'Sign in' => '登录',
+    'Sign in to %s' => '欢迎登录 %s',
     'Users' => '用户',
     'No user' => '没有用户',
     'Forbidden' => '禁止',
