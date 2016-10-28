@@ -149,6 +149,7 @@ $container['route']->addRoute('group/:group_id/members', 'GroupListController', 
 // Config
 $container['route']->addRoute('settings', 'ConfigController', 'index');
 $container['route']->addRoute('settings/application', 'ConfigController', 'application');
+$container['route']->addRoute('settings/email', 'ConfigController', 'email');
 $container['route']->addRoute('settings/project', 'ConfigController', 'project');
 $container['route']->addRoute('settings/project', 'ConfigController', 'project');
 $container['route']->addRoute('settings/board', 'ConfigController', 'board');
