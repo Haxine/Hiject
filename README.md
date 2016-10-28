@@ -73,5 +73,5 @@ $ chmod -R 0777 storage
 
 Hiject is licensed under the license of MIT.  See the LICENSE for more details.
 
-Hiject is a fork based on Hiject. Kanboard is Copyright Frédéric Guillot and others.
+Hiject is a fork based on Kanboard. Kanboard is Copyright Frédéric Guillot and others.
 
